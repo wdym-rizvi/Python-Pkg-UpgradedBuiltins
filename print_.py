@@ -6,9 +6,9 @@ import os
 
 console = Console()
 
-def print_(text, color):
+def print_(text, color, delay):
     for char in text:
         console.print(char, style=color, end="", highlight=False)
-        sleep(0.01)
+        sleep(delay)
     sys.stdout.flush()
     print()

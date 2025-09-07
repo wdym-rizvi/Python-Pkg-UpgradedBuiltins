@@ -6,9 +6,9 @@ import os
 
 console = Console()
 
-def print_rotated_gradient(lines, colors):
+def print_rotated_gradient(lines, colors, delay):
     for i, line in enumerate(lines):
         color = colors[i % len(colors)]
         text = Text(line, style=color)
         console.print(text)
-        sleep(0.1)
+        sleep(delay)
