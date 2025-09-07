@@ -6,7 +6,7 @@ import os
 
 console = Console()
 
-def input_str(prompt, color, delay):
+def inputStr(prompt, color, delay):
     for char in prompt:
         console.print(char, style=color, end="", highlight=False)
         sleep(delay)
@@ -14,7 +14,7 @@ def input_str(prompt, color, delay):
     str_ = input()
     return str_
 
-def input_int(prompt, color):
+def inputInt(prompt, color):
     for char in prompt:
         console.print(char, style=color, end="", highlight=False)
         sleep(0.01)
