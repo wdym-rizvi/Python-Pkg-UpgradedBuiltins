@@ -12,3 +12,5 @@ def print_rotated_gradient(lines, colors, delay):
         text = Text(line, style=color)
         console.print(text)
         sleep(delay)
+
+
