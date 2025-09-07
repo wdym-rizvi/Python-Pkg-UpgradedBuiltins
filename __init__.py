@@ -9,7 +9,6 @@ from .box_print import box_print # 8
 from .confirm import confirm # 9
 from .progress import progress # 10
 from .spinner import spinner # 11
-##########################################
 from .dots_loading import dots_loading # 12
 from .countdown import countdown # 13
 from .percent_loader import percent_loader # 14
