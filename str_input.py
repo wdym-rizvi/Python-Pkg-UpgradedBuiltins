@@ -11,7 +11,7 @@ console = Console()
 error_str="Enter a valid String: "
 
 # Function to get string input with animated prompt
-def inputStr(prompt, color, delay):
+def inputStr(prompt="Enter a String: ", color="Blue", delay=0.05):
     for char in prompt:
         console.print(char, style=color, end="", highlight=False)
         sleep(delay)

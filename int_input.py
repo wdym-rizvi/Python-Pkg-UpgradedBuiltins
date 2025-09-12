@@ -11,7 +11,7 @@ console = Console()
 error="Enter a valid Number: "
 
 # Function to get integer input with animated prompt
-def inputInt(prompt, color, delay):
+def inputInt(prompt="Enter a Number: ", color="Blue", delay="0.05"):
     for char in prompt:
         console.print(char, style=color, end="", highlight=False)
         sleep(delay)

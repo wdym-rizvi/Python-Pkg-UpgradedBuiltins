@@ -6,7 +6,7 @@ import os
 
 console = Console()
 
-def typewrite(text, color, delay):
+def typewrite(text, color="Blue", delay=0.05):
     for char in text:
         console.print(char, style=color, end="", highlight=False)
         sleep(delay)
